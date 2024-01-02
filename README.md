@@ -16,3 +16,7 @@
 2 直接用mvn命令执行
 
    mvn mybatis-generator:generate -e
+
+mybatis-generator使用注意事项：
+
+  1 如果表没有设置组件，mapper中只能生成insert方法。
